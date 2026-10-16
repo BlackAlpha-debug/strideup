@@ -1,0 +1,41 @@
+name: stride_up
+description: "StrideUp — Gamified Fitness Tracker"
+publish_to: 'none'
+version: 1.2.0+3
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  crypto: ^3.0.6
+  google_fonts: ^6.2.1
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  fl_chart: ^0.70.2
+  percent_indicator: ^4.2.3
+  flutter_animate: ^4.5.2
+  provider: ^6.1.2
+  geolocator: ^13.0.2
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.3.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/Stride Up.png"
+  adaptive_icon_background: "#131313"
+  adaptive_icon_foreground: "assets/Stride Up.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Stride Up.png
